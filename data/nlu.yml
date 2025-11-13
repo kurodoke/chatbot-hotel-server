@@ -1,0 +1,386 @@
+version: "3.1"
+
+nlu:
+# === SAPA DAN PENUTUP ===
+- intent: greet
+  examples: |
+    - hai
+    - halo
+    - selamat pagi
+    - hey
+    - hi bot
+
+- intent: goodbye
+  examples: |
+    - sampai jumpa
+    - dadah
+    - terima kasih
+    - see you
+
+# === PERMINTAAN REKOMENDASI HOTEL ===
+- intent: request_hotel_recommendation
+  examples: |
+    - berikan aku hotel [murah](price) dekat [pantai](location)
+    - aku ingin hotel yang [terjangkau](price)
+    - rekomendasikan hotel yang [bagus](quality)
+    - tolong carikan hotel dekat [pusat kota](location)
+    - aku mau hotel dengan [rating tinggi](quality)
+    - ada hotel bersih dan dekat [pantai](location)?
+    - hotel bintang 4 tapi [murah](price) ada?
+    - aku butuh hotel [nyaman](quality) dengan [fasilitas lengkap](facility)
+    - aku ingin tipe [Suite](type)
+    - hotel dengan [kolam renang](facility)
+    - hotel [murah](price) dekat [kota](location)
+    - carikan hotel
+    - tolong rekomendasikan hotel
+    - berikan hotel [terbaik](quality)
+
+# === PERTANYAAN FASILITAS UMUM ===
+- intent: ask_facility_general
+  examples: |
+    - fasilitas apa yang ada di hotel itu?
+    - hotel ini punya fasilitas apa aja?
+    - apa saja fasilitas yang tersedia di hotel [oma casa](hotel)?
+    - fasilitas di hotel [oma casa](hotel)?
+
+# === PERTANYAAN FASILITAS SPESIFIK (YA/TIDAK) ===
+- intent: ask_facility_specific
+  examples: |
+    - hotel [oma casa](hotel) punya [layanan kamar](facility)?
+    - apakah ada [kafe](facility) di hotel [oma casa](hotel)?
+    - hotel ini ada [restoran](facility) gak?
+    - tersedia [parkiran](facility) di hotel [oma casa](hotel)?
+    - apakah ada [ATM](facility) di hotel [oma casa](hotel)?
+    - apakah ada [gym](facility)?
+    - ada [laundry](facility)?
+    - ada [resepsionis 24 jam](facility)?
+    - ada [kolam renang](facility) di hotel itu?
+    - ada [wifi](facility) di hotel [oma casa](hotel)?
+    
+
+# === PERTANYAAN LOKASI ===
+- intent: ask_location
+  examples: |
+    - di mana lokasi hotel itu?
+    - alamat hotelnya di mana?
+    - jauh gak dari [kota](location)?
+    - berapa jarak ke [pantai](location)?
+
+# === INFORM / PREFERENSI PENGGUNA ===
+- intent: inform
+  examples: |
+    - [murah](price)
+    - [terjangkau](price)
+    - [mahal](price)
+    - [hemat](price)
+    - [budget](price)
+    - [premium](price)
+    - dekat [pantai](location)
+    - pinggir [pantai](location)
+    - dekat [kota](location)
+    - [pusat kota](location)
+    - [kota](location)
+    - tipe [Suite](type)
+    - tipe [Deluxe](type)
+    - [Junior Suite](type)
+    - [Family Superior](type)
+    - [Superior Twin](type)
+    - ada [restoran](facility)
+    - ada [kafe](facility)
+    - punya [layanan kamar](facility)
+    - dengan [kolam renang](facility)
+    - tersedia [laundry](facility)
+    - ada [resepsionis 24 jam](facility)
+    - ada [ATM](facility)
+    - saya ingin yang [murah](price)
+    - yang dekat [pantai](location)
+    - saya mau tipe [Deluxe](type)
+    - hotel dengan [kolam renang](facility)
+    - hotel yang punya [restoran](facility)
+    - hotel di [pusat kota](location)
+    - hotel [Family Superior](type)
+    - saya ingin [Suite](type)
+    - yang [budget](price) aja
+    - cari yang [premium](price)
+    - dekat [kota](location) aja
+
+# === LOOKUP TABLES (optional) ===
+- lookup: price 
+  examples: | 
+    - murah 
+    - mahal
+    - terjangkau
+    - hemat
+    - budget
+    - ekonomis
+    - low cost
+    - low budget
+    - premium
+    - kelas atas
+    - mewah
+    - eksklusif
+    - high end
+    - high budget
+    - high cost
+
+
+- lookup: location
+  examples: |
+    - pantai
+    - pinggir pantai
+    - pusat kota
+    - kota
+    - dekat kota
+    - dekat pantai
+
+- lookup: type
+  examples: |
+    - superior
+    - deluxe
+    - suite
+    - executive
+    - superior
+
+- lookup: facility
+  examples: |
+    - resepsionis
+    - resepsionis 24 jam
+    - keamanan 24 jam
+    - laundry
+    - penitipan bagasi
+    - staff multibahasa
+    - surat kabar di lobby
+    - surat kabar
+    - restoran ber-AC
+    - sarapan
+    - sarapan prasmanan
+    - sarapan berbiaya
+    - kafe
+    - ruang makan
+    - tanpa minuman beralkohol
+    - ATM/Bank
+    - salon kecantikan
+    - mini market
+    - salon rambut
+    - laundry swadaya
+    - toko
+    - supermarket
+    - AC
+    - aula
+    - ruang keluarga
+    - alat pemanas
+    - area bebas asap rokok
+    - area merokok
+    - layanan kamar 24 jam
+    - restoran
+    - restoran untuk sarapan
+    - restoran untuk makan malam
+    - restoran untuk makan siang
+    - WiFi di area umum
+    - antar-jemput bandara
+    - transportasi ke pantai
+    - parkir berjaga
+    - transportasi ke pusat perbelanjaan
+    - transportasi ke pusat perbelanjaan berbiaya
+    - TV kabel
+    - meja
+    - pancuran
+    - TV
+    - ruang rapat
+    - fasilitas rapat
+    - printer
+    - proyektor
+    - jalan bagi penyandang disabilitas
+    - lokasi mudah diakses
+    - aksesibel bagi penyandang disabilitas
+    - WiFi gratis
+    - area parkir
+    - kopi/teh di lobby
+    - lift
+    - layanan kamar
+    - brankas
+    - kamar dengan pintu penghubung
+    - brankas kamar
+    - kulkas
+    - makan malam dari menu
+    - makan siang dari menu
+    - bar
+    - concierge/layanan tamu
+    - internet kamar
+    - WiFi di area umum berbiaya
+    - layanan pijat
+    - parkir valet
+    - antar-jemput bandara berbiaya
+    - fasilitas nikah
+    - banquet
+    - pengering pakaian
+    - perapian di lobby
+    - kolam renang
+    - teras rooftop
+    - bebas rokok
+    - teras
+    - bellboy
+    - late check-out
+    - sarapan a la carte
+    - makan malam bermenu
+    - menu makan siang
+    - makanan ringan
+    - penjaga pintu
+    - porter
+    - fasilitas bisnis
+    - layanan sektretarial
+    - transportasi di area hotel berbiaya
+    - transportasi ke taman rekreasi berbiaya
+    - spa
+    - parkir bus/truk
+    - penitipan anak
+    - area main anak
+    - teater/auditorium
+    - toko oleh-oleh
+
+- lookup: quality
+  examples: |
+    - bagus
+    - buruk
+
+- lookup: hotel
+  examples: |
+    - oma casa
+    - omacasa
+    - cordela inn
+    - cordela
+    - mercure
+    - xtra
+    - splash
+    - grage
+
+- lookup: bed
+  examples: |
+    - twin
+    - double
+    - single
+    - king
+
+- lookup: star
+  examples: |
+    - bintang 4
+    - bintang 3
+    - bintang 2
+    - bintang 1
+
+# === SYNONYMS ===
+# Harga (price)
+- synonym: murah
+  examples: |
+    - terjangkau
+    - hemat
+    - budget
+    - ekonomis
+    - low cost
+    - low budget
+
+- synonym: mahal
+  examples: |
+    - premium
+    - kelas atas
+    - mewah
+    - eksklusif
+    - high end
+    - high budget
+    - high cost
+
+
+# Kualitas (quality)
+- synonym: bagus
+  examples: |
+    - baik
+    - keren
+    - oke
+    - menarik
+    - memuaskan
+    - terbaik
+    - cukup
+
+- synonym: buruk
+  examples: |
+    - jelek
+    - tidak bagus
+    - tidak baik
+    - mengecewakan
+    - tidak menarik
+    - tidak memuaskan
+    - tidak terbaik
+    - tidak oke
+
+# Tipe kamar (type)
+- synonym: suite
+  examples: |
+    - junior suite
+    - executive suite
+
+- synonym: deluxe
+  examples: |
+    - deluxe twin
+    - deluxe king
+    - privilege deluxe
+
+- synonym: superior
+  examples: |
+    - superior twin
+    - superior double
+    - superior family city view
+
+# Fasilitas (facility)
+- synonym: wifi
+  examples: |
+    - internet
+    - koneksi internet
+    - wi-fi
+    - jaringan internet
+
+- synonym: restoran
+  examples: |
+    - rumah makan
+    - tempat makan
+    - dining
+    - resto
+
+- synonym: kafe
+  examples: |
+    - coffee shop
+    - cafe
+    - kedai kopi
+
+- synonym: kolam renang
+  examples: |
+    - swimming pool
+    - pool
+    - kolam air
+
+# Synonym hotel
+- synonym: oma casa
+  examples: |
+    - omacasa
+    - omacasa hotel
+    - oma casa hotel
+    
+- synonym: cordela inn
+  examples: |
+    - cordela
+    - cordela hotel
+
+- synonym: mercure
+  examples: |
+    - mercure hotel
+
+- synonym: xtra
+  examples: |
+    - xtra hotel
+
+- synonym: splash
+  examples: |
+    - splash hotel
+
+- synonym: grage
+  examples: |
+    - grage hotel

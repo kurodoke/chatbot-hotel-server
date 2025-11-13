@@ -1,0 +1,99 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - request_hotel_recommendation
+  - ask_location
+  - ask_facility_general
+  - ask_facility_specific
+  - inform
+  - nlu_fallback
+
+entities:
+  - price
+  - location
+  - type
+  - facility
+  - hotel
+  - bed
+  - star
+
+slots:
+  price:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: price
+
+  location:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: location
+
+  type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: type
+
+  facility:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: facility
+  
+  hotel:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: hotel
+
+  bed:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: bed
+
+  star:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: star
+
+responses:
+  utter_greet:
+    - text: "Hai! Saya bisa bantu kamu mencari hotel."
+
+  utter_goodbye:
+    - text: "Terima kasih, semoga hari kamu menyenangkan!"
+
+  utter_ask_preferences:
+    - text: "Kamu mau hotel seperti apa? (misalnya murah, dekat pantai, atau bintang 4)"
+
+  utter_unknown:
+    - text: "Saya tidak memahami maksud anda. Bisa diulangi lagi?"
+
+  utter_facility_info:
+    - text: "facility hotel termasuk: ... (akan diisi otomatis oleh action)"
+
+  utter_location_info:
+    - text: "Lokasi hotel adalah: ... (akan diisi otomatis oleh action)"
+
+actions:
+  - action_recommend_hotel
+  - action_default_fallback
+  - action_facility_info
+  - action_location_info
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

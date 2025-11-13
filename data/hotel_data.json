@@ -1,0 +1,545 @@
+{
+  "hotel": [
+    {
+      "nama_hotel": "Oma Casa",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 330000,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 330000,
+          "tipe": "Superior Twin City View",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 380000,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 380000,
+          "tipe": "Deluxe",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 425000,
+          "tipe": "Junior Suite",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 450000,
+          "tipe": "Superior Family City View",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 3
+          }
+        },
+        {
+          "harga": 475000,
+          "tipe": "Suite",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Kapt. P. Tandean No.88, Jemb. Kecil, Kec, Bengkulu, Bengkulu Province, 38225, Indonesia",
+      "jarak_ke_pusat_kota": "5.02 km",
+      "jarak_ke_pantai": "2.75 km",
+      "fasilitas": [
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Penitipan bagasi",
+        "Staff multibahasa",
+        "Surat kabar di lobby",
+        "Surat kabar",
+        "Restoran ber-AC",
+        "Sarapan",
+        "Sarapan prasmanan",
+        "Sarapan berbiaya",
+        "Kafe",
+        "Ruang makan",
+        "Tanpa minuman beralkohol",
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "AC",
+        "Aula",
+        "Ruang keluarga",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "WiFi di area umum",
+        "Antar-jemput bandara",
+        "Transportasi ke pantai",
+        "Parkir berjaga",
+        "Transportasi ke pusat perbelanjaan",
+        "Transportasi ke pusat perbelanjaan berbiaya",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Ruang rapat",
+        "Fasilitas rapat",
+        "Printer",
+        "Proyektor",
+        "Jalan bagi penyandang disabilitas",
+        "Lokasi mudah diakses",
+        "Aksesibel bagi penyandang disabilitas",
+        "WiFi gratis"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/oma-casa-hotel-9000000987343",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Splash",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 323999,
+          "tipe": "Superior Twin",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 323999,
+          "tipe": "Superior Double",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 413999,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 413999,
+          "tipe": "Deluxe Double",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan Jenderal Sudirman No. 48 , Teluk Segara, Bengkulu, Provinsi Bengkulu, Indonesia, 38114",
+      "jarak_ke_pusat_kota": "814 m",
+      "jarak_ke_pantai": "2.32 km",
+      "fasilitas": [
+        "Area parkir",
+        "Kopi/teh di lobby",
+        "Kafe",
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "Brankas",
+        "WiFi di area umum",
+        "AC",
+        "Kamar dengan pintu penghubung",
+        "Ruang keluarga",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "TV kabel",
+        "Meja",
+        "Brankas kamar",
+        "Kulkas",
+        "Pancuran",
+        "TV",
+        "Makan malam dari menu",
+        "Makan siang dari menu",
+        "Restoran ber-AC",
+        "Bar",
+        "Sarapan prasmanan",
+        "Concierge/layanan tamu",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Penitipan bagasi",
+        "Internet Kamar",
+        "WiFi di area umum berbiaya",
+        "Layanan pijat",
+        "Parkir valet",
+        "Antar-jemput bandara berbiaya",
+        "Fasilitas rapat",
+        "ATM/Bank"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/splash-hotel-bengkulu-3000010006867",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Grage",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 429300,
+          "tipe": "Superior Budget",
+          "ranjang": {
+            "tipe": "Queen Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 575100,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 664200,
+          "tipe": "Deluxe Forest View",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 810000,
+          "tipe": "Ocean View",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "JL. Pantai Nala No. 142, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38223",
+      "jarak_ke_pusat_kota": "1.63 km",
+      "jarak_ke_pantai": "1.21 km",
+      "fasilitas": [
+        "AC",
+        "Aula",
+        "Banquet",
+        "Pengering pakaian",
+        "Ruang keluarga",
+        "Perapian di lobby",
+        "Alat pemanas",
+        "Kolam renang",
+        "Teras rooftop",
+        "Bebas rokok",
+        "Teras",
+        "Area parkir",
+        "Kopi/teh di lobby",
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "Bellboy",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Late check-out",
+        "Laundry",
+        "Surat kabar di lobby",
+        "Fasilitas nikah",
+        "Sarapan a la carte",
+        "Makan siang dari menu",
+        "Restoran ber-AC",
+        "Bar",
+        "Sarapan",
+        "Sarapan prasmanan",
+        "Kafe",
+        "Fasilitas bisnis",
+        "Fasilitas rapat",
+        "Proyektor",
+        "Teater/auditorium",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Toko oleh-oleh"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/grage-hotel-bengkulu-3000010001751",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Mercure",
+      "bintang": 4,
+      "kamar": [
+        {
+          "harga": 733381,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 733381,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 828380,
+          "tipe": "Privilege Deluxe",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 828380,
+          "tipe": "Deluxe",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 1208381,
+          "tipe": "Executive Room",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 2158383,
+          "tipe": "Executive Suite",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan S Parman No. 27, Bengkulu, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38227",
+      "jarak_ke_pusat_kota": "2.64 km",
+      "jarak_ke_pantai": "1.57 km",
+      "fasilitas": [
+        "Parkir bus/truk",
+        "Parkir valet",
+        "Area parkir",
+        "WiFi di area umum",
+        "Concierge/layanan tamu",
+        "Resepsionis 24 jam",
+        "Penitipan anak",
+        "Area main anak",
+        "Kolam renang",
+        "TV"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/mercure-bengkulu-9000000687564",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Xtra",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 292875,
+          "tipe": "Superior Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 292875,
+          "tipe": "Superior King",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 334125,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 334125,
+          "tipe": "Deluxe King Windows",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan Mayjend Sutoyo No. 31, Ratu Agung, Bengkulu, Provinsi Bengkulu, Indonesia, 38224",
+      "jarak_ke_pusat_kota": "3.85 km",
+      "jarak_ke_pantai": "1.95 km",
+      "fasilitas": [
+        "Sarapan a la carte",
+        "Makan malam dari menu",
+        "Makan siang dari menu",
+        "Sarapan",
+        "Sarapan kontinental",
+        "Ruang makan",
+        "Sarapan dengan makanan hangat",
+        "Makan malam bermenu",
+        "Menu makan siang",
+        "Makanan ringan",
+        "Penjaga pintu",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Penitipan bagasi",
+        "Staff multibahasa",
+        "Surat kabar di lobby",
+        "Surat kabar",
+        "Porter",
+        "AC",
+        "Aula",
+        "Banquet",
+        "Kamar dengan pintu penghubung",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Teras rooftop",
+        "Area merokok",
+        "Teras",
+        "Area parkir",
+        "Kafe",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "Fasilitas bisnis",
+        "Ruang rapat",
+        "Fasilitas rapat",
+        "Layanan sektretarial",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Transportasi di area hotel berbiaya",
+        "Transportasi ke pusat perbelanjaan berbiaya",
+        "Transportasi ke taman rekreasi berbiaya",
+        "Layanan pijat",
+        "Spa",
+        "Lokasi mudah diakses",
+        "Aksesibel bagi penyandang disabilitas",
+        "Laundry Swadaya",
+        "Supermarket",
+        "WiFi gratis",
+        "Antar-jemput bandara berbiaya"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/xtra-hotel-bengkulu-3000010006953",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Cordela Inn",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 306000,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 378000,
+          "tipe": "Deluxe City View",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 423000,
+          "tipe": "Deluxe Business City View",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan Jendral Sudirman No.57, Kel. Tengah Padang, Kec. Teluk Segara, Teluk Segara, Bengkulu, Provinsi Bengkulu, Indonesia, 38113",
+      "jarak_ke_pusat_kota": "546 m",
+      "jarak_ke_pantai": "2.43 km",
+      "fasilitas": [
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "AC",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "TV kabel",
+        "Pancuran",
+        "TV",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Sarapan",
+        "WiFi gratis",
+        "Aksesibel bagi penyandang disabilitas",
+        "Fasilitas rapat"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/cordela-inn-bengkulu-9000000325823",
+        "agoda": ""
+      }
+    }
+  ]
+}

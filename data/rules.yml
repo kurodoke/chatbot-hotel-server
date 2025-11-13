@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Handle unknown input
+  steps:
+    - intent: nlu_fallback
+    - action: action_default_fallback
+
+- rule: Handle preferences after asking for them
+  steps:
+    - intent: inform
+    - action: action_recommend_hotel
+
+- rule: Respond to general facility question
+  steps:
+    - intent: ask_facility_general
+    - action: action_facility_info
+
+- rule: Respond to specific facility question
+  steps:
+    - intent: ask_facility_specific
+    - action: action_facility_info
