@@ -540,6 +540,396 @@
         "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/cordela-inn-bengkulu-9000000325823",
         "agoda": ""
       }
-    }
+    },
+    {
+      "nama_hotel": "Santika",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 883600,
+          "tipe": "Deluxe King",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan Raya Jati No. 45, Sawah Lebar, Ratu Agung, Bengkulu, Provinsi Bengkulu, Indonesia, 38228",
+      "jarak_ke_pusat_kota": "2.32 km",
+      "jarak_ke_pantai": "1.78 km",
+      "fasilitas": [
+        "Area parkir",
+        "Kafe",
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "Brankas",
+        "WiFi di area umum",
+        "AC",
+        "Aula",
+        "Banquet",
+        "Kamar dengan pintu penghubung",
+        "Ruang keluarga",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Kolam renang",
+        "Area merokok",
+        "Bellboy",
+        "Concierge/layanan tamu",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Penitipan bagasi",
+        "Staff multibahasa",
+        "Surat kabar di lobby",
+        "Fasilitas nikah",
+        "Resepsionis 24 jam",
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Toko oleh-oleh",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "Fasilitas bisnis",
+        "Fasilitas komputer",
+        "Fasilitas rapat",
+        "Fotocopy",
+        "Proyektor",
+        "Pusat kebugaran",
+        "Kolam renang indoor",
+        "Layanan pijat",
+        "Spa",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Penyewaan sepeda",
+        "Sewa mobil",
+        "Parkir valet",
+        "Kolam renang anak",
+        "Penitipan anak",
+        "WiFi gratis",
+        "Antar-jemput bandara berbiaya"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/hotel-santika-bengkulu-297336",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Sinar Sport",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 495000,
+          "tipe": "Superior Twin",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 495000,
+          "tipe": "Superior King",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 495000,
+          "tipe": "Standard Twin",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 585000,
+          "tipe": "Deluxe King",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 585000,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        }
+      ],
+      "alamat": "Jalan Letjend Seoprapto No. 378, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38222",
+      "jarak_ke_pusat_kota": "1.37 km",
+      "jarak_ke_pantai": "1.81 km",
+      "fasilitas": [
+        "Kopi/teh di lobby",
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Restoran ber-AC",
+        "Brankas",
+        "Brankas kamar",
+        "WiFi di area umum",
+        "WiFi gratis",
+        "AC",
+        "Aula",
+        "Banquet",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Kolam renang",
+        "Kolam renang outdoor",
+        "Ruang santai",
+        "Teras rooftop",
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Toko oleh-oleh",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Staff multibahasa",
+        "Surat kabar di lobby",
+        "Surat kabar",
+        "Sarapan",
+        "Sarapan dan makan malam",
+        "Sarapan dan makan siang",
+        "Sarapan kontinental",
+        "Ruang makan",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Lokasi mudah diakses",
+        "Parkir bagi penyandang disabilitas",
+        "Aksesibel bagi penyandang disabilitas",
+        "Fasilitas rapat",
+        "Proyektor",
+        "Layanan sektretarial",
+        "Pusat kebugaran",
+        "Antar-jemput bandara",
+        "Antar-jemput bandara berbiaya"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/sinar-sport-hotel-3000010009405",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Amaris",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 427500,
+          "tipe": "Smart Queen",
+          "ranjang": {
+            "tipe": "Queen Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 427500,
+          "tipe": "Smart Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Putri Gading Cempaka No. 08, Penurunan Bengkulu, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38223",
+      "jarak_ke_pusat_kota": "2.60 km",
+      "jarak_ke_pantai": "381 m",
+      "fasilitas": [
+        "AC",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Bebas rokok",
+        "Teras",
+        "Area parkir",
+        "Kopi/teh di lobby",
+        "Lift",
+        "Restoran",
+        "Restoran ber-AC",
+        "Restoran untuk sarapan",
+        "Sarapan",
+        "Sarapan prasmanan",
+        "Brankas",
+        "Brankas kamar",
+        "WiFi di area umum",
+        "WiFi gratis",
+        "TV kabel",
+        "TV",
+        "Meja",
+        "Pancuran",
+        "Kolam renang",
+        "Kolam renang indoor",
+        "Kolam renang anak",
+        "Taman",
+        "Parkir valet",
+        "Concierge/layanan tamu",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Penitipan bagasi",
+        "Surat kabar di lobby",
+        "Fasilitas rapat",
+        "ATM/Bank"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/amaris-hotel-bengkulu-3000010004789",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "O.R 44",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 315000,
+          "tipe": "Deluxe Double",
+          "ranjang": {
+            "tipe": "Queen Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 315000,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 495000,
+          "tipe": "Suite",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 585000,
+          "tipe": "Or44",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan H. Adam Malik No.3A, Selebar, Bengkulu, Provinsi Bengkulu, Indonesia, 38211",
+      "jarak_ke_pusat_kota": "8.96 km",
+      "jarak_ke_pantai": "6.39 km",
+      "fasilitas": [
+        "Bellboy",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Layanan medis",
+        "Ponsel",
+        "Porter",
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Toko oleh-oleh",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "Area parkir",
+        "Kopi/teh di lobby",
+        "Layanan kamar 24 jam",
+        "Restoran untuk sarapan",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "WiFi gratis",
+        "TV kabel",
+        "TV",
+        "Meja",
+        "Pengering rambut",
+        "Pancuran",
+        "AC",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Teras",
+        "Antar-jemput bandara",
+        "Antar-jemput bandara berbiaya",
+        "Sarapan",
+        "Taman",
+        "Lokasi mudah diakses",
+        "Fotocopy"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/or-44-hotel-3000010029954",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Sans Stay Manlie",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 239200,
+          "tipe": "Deluxe Twin Room",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 239200,
+          "tipe": "Deluxe Room",
+          "ranjang": {
+            "tipe": "Queen Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 312000,
+          "tipe": "Family Room",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 2
+          }
+        }
+      ],
+      "alamat": "Jl. Al-Furqan No.9, Kebun Dahri, Kec. Ratu Samban, Kota Bengkulu, Bengkulu 38221, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38221",
+      "jarak_ke_pusat_kota": "1.15 km",
+      "jarak_ke_pantai": "2.15 km",
+      "fasilitas": [
+        "AC",
+        "Area bebas asap rokok",
+        "Area parkir",
+        "WiFi di area umum",
+        "WiFi gratis",
+        "Pancuran",
+        "TV",
+        "Resepsionis"
+      ],
+      "ulasan": [],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/sans-stay-manlie-hotel--residence-9000007014427",
+        "agoda": ""
+      }
+    } 
   ]
 }
