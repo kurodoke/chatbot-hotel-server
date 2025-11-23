@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import google.genai as genai
 
 app = Flask(__name__)
-client = genai.Client(api_key="AIzaSyDTbdKuFQnSIlt1hZZv_SCETifIMNWkvTU")
+client = genai.Client(api_key="AIzaSyCI2b5RwBtkjl8HqZY7Yd6UwzbjGK2mXC8")
 
 @app.post("/generate")
 def generate():
