@@ -1,8 +1,12 @@
 from flask import Flask, request, jsonify
 import google.genai as genai
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
-client = genai.Client(api_key="AIzaSyCI2b5RwBtkjl8HqZY7Yd6UwzbjGK2mXC8")
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 
 @app.post("/generate")
 def generate():

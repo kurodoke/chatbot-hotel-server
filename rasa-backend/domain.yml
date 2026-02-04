@@ -35,14 +35,14 @@ slots:
         entity: location
 
   type:
-    type: any
+    type: text
     influence_conversation: true
     mappings:
       - type: from_entity
         entity: type
 
   facility:
-    type: any
+    type: text
     influence_conversation: true
     mappings:
       - type: from_entity

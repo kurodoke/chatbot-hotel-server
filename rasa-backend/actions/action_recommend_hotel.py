@@ -6,6 +6,7 @@ import json
 from rasa_sdk.events import FollowupAction, AllSlotsReset, SlotSet
 
 from actions.utils.parse_data_with_gemini import parse_preference_with_gemini
+from actions.utils.generate_response_from_gpt import generate_response_from_gpt 
 from actions.utils.get_max_distance import get_max_distance
 from actions.utils.convert_km_to_meter import convert_to_meters
 from actions.utils.threshold_price_room import hitung_threshold_harga_kamar
@@ -33,7 +34,7 @@ def filter_hotels(hotels, parsed_preferences):
         match = True
 
         # star
-        if slot_star and hotel.get("star", 0) != int(slot_star):
+        if slot_star and hotel.get("bintang", 0) != int(slot_star):
             match = False
 
         # tipe kamar
@@ -58,6 +59,12 @@ def filter_hotels(hotels, parsed_preferences):
             jarak_m = convert_to_meters(jarak_str)
             if jarak_m > get_max_distance(hotels, "jarak_ke_pantai"):
                 match = False
+                
+        if match and slot_location and "kota" in slot_location.lower():
+            jarak_str = hotel.get("jarak_ke_pusat_kota", "999 km").replace(",", ".").strip()
+            jarak_m = convert_to_meters(jarak_str)
+            if jarak_m > get_max_distance(hotels, "jarak_ke_pusat_kota"):
+                match = False
 
         if match:
             hard_filtered.append(hotel)
@@ -81,7 +88,7 @@ def filter_hotels(hotels, parsed_preferences):
                 for hotel in hotels:
                     match = True
                     for c in subset:
-                        if c == "star" and hotel.get("star", 0) != int(slot_star):
+                        if c == "star" and hotel.get("bintang", 0) != int(slot_star):
                             match = False
                         if c == "type":
                             hotel_tipe_list = [k["tipe"].lower() for k in hotel.get("kamar", [])]
@@ -100,8 +107,13 @@ def filter_hotels(hotels, parsed_preferences):
                             jarak_m = convert_to_meters(jarak_str)
                             if jarak_m > get_max_distance(hotels, "jarak_ke_pantai"):
                                 match = False
+                        if c == "location" and "kota" in slot_location.lower():
+                            jarak_str = hotel.get("jarak_ke_pusat_kota", "999 km").replace(",", ".").strip()
+                            jarak_m = convert_to_meters(jarak_str)
+                            if jarak_m > get_max_distance(hotels, "jarak_ke_pusat_kota"):
+                                match = False    
                         if c == "bed":
-                            hotel_beds = [k.get("bed_type", "").lower() for k in hotel.get("kamar", [])]
+                            hotel_beds = [k["ranjang"].get("tipe", "").lower() for k in hotel.get("kamar", [])]
                             slot_bed_list = slot_bed if isinstance(slot_bed, list) else [slot_bed]
                             slot_bed_list = [b.lower() for b in slot_bed_list]
                             if not any(b in hotel_beds for b in slot_bed_list):
@@ -137,11 +149,13 @@ class ActionRecommendHotel(Action):
             return []
 
         hotels = data.get("hotel", [])
-        
-        parsed_preferences = parse_preference_with_gemini(tracker.latest_message.get("text"))
+        user_text = tracker.latest_message.get("text")
+
+        # ---- 1. Parsing preferences ----
+        parsed_preferences = parse_preference_with_gemini(user_text)
 
         if DEBUG:
-            print(f"parsed_preferences: {parsed_preferences}")
+            print(f"parsed_preferences: {parsed_preferences}")  
 
         # Ambil slot dari tracker
         slot_price = parsed_preferences.get("price")
@@ -297,11 +311,11 @@ class ActionRecommendHotel(Action):
                     rating = u.get("rating", 0)
                     sentiment = u.get("sentiment", "neutral")
                     if sentiment == "positive":
-                        total += rating
+                        total += 1
                     elif sentiment == "negative":
-                        total -= rating
+                        total -= 1
                     else:
-                        total += rating * 0.5
+                        total += 1
                 score_rating += total / len(hotel["ulasan"])
 
             # ---- 6. Tipe bed/ranjang  ----
@@ -315,7 +329,7 @@ class ActionRecommendHotel(Action):
                 for b_usr in bed_user_list:
                     max_sim = 0
                     for kamar in hotel["kamar"]:
-                        sim = fuzz.partial_ratio(b_usr, kamar.get("bed_type", "").lower())
+                        sim = fuzz.partial_ratio(b_usr, kamar["ranjang"].get("tipe", "").lower())
                         if sim > max_sim:
                             max_sim = sim
                     if max_sim >= 90:
@@ -358,32 +372,65 @@ class ActionRecommendHotel(Action):
         # ---- Sort & ambil top 3 ----
         ranking.sort(key=lambda x: x[0], reverse=True)
         top3 = ranking[:3]
-        best_hotel = top3[0][1] if top3 else None
 
-        # ---- 3. Hasil rekomendasi ----
-        event = []
-        if best_hotel:
-            found_message = ""
-            if isNotFound:
-                found_message = "🤔 Maaf, saya belum menemukan hotel yang sesuai preferensimu, sebagai gantinya saya berikan\n"
-                
-            message = found_message + f"✨ {top3.__len__()} Rekomendasi Hotel Terbaik untuk Kamu:\n"
-
-            for idx, (score, hotel) in enumerate(top3, start=1):
-                nama = hotel.get("nama_hotel", "-")
-                alamat = hotel.get("alamat", "-")
-                link = hotel.get("link", {}).get("traveloka", "#")
-                message += f"\n{idx}. *{nama}*\n📍 {alamat}\n🔗 {link}\n"
-
-            dispatcher.utter_message(text=message)
-            event.append(AllSlotsReset())
-            event.append(SlotSet("hotel", best_hotel.get("nama_hotel", None).lower()))
+        if not top3:
+            dispatcher.utter_message(text="Maaf, saya tidak menemukan hotel sama sekali di database.")
+            return [SlotSet("hotel", None)]
+        
+        # ---- Format hasil rekomendasi -----
+        main_hotel_data = top3
+        gpt_hotels_list = []
+        gpt_alternatives_list = []
+        
+        if (ranking.__len__() > 3):
+            alternative_hotels_data = ranking[3][1]
+            gpt_alternatives_list.append({
+                "nama": alternative_hotels_data.get("nama_hotel", "Hotel"),
+                "rating": alternative_hotels_data.get("rating", 0),
+                "tipe": alternative_hotels_data.get("tipe", "Hotel"),
+                "bintang": alternative_hotels_data.get("star", 3),
+                "harga": int(sum(k["harga"] for k in alternative_hotels_data["kamar"]) / len(alternative_hotels_data["kamar"])),
+                "lokasi": alternative_hotels_data.get("alamat", "Bengkulu"), # Atau field lokasi spesifik
+                "fasilitas": alternative_hotels_data.get("fasilitas", []),
+                "link": alternative_hotels_data.get("link", {}).get("traveloka", "#")
+            })
         else:
-            dispatcher.utter_message(
-                text="Maaf, saya belum menemukan hotel yang sesuai preferensimu."
-            )
-            event.append(SlotSet("hotel", None))
+            alternative_hotels_data = []
 
+        for h in main_hotel_data:
+            h_data = h[1]
+            gpt_hotels_list.append({
+                "nama": h_data.get("nama_hotel", "Hotel"),
+                "photo": h_data.get("photo", "http://localhost:3000/default_hotel.jpg"),
+                "rating": h_data.get("rating", 0),
+                "tipe": h_data.get("tipe", "Hotel"),
+                "bintang": h_data.get("star", 3),
+                "harga": int(sum(k["harga"] for k in h_data["kamar"]) / len(h_data["kamar"])),
+                "lokasi": h_data.get("alamat", "Bengkulu"), # Atau field lokasi spesifik
+                "fasilitas": h_data.get("fasilitas", []),
+                "link": h_data.get("link", {}).get("traveloka", "#")
+            })
+            
+        event = []
+        if isNotFound:
+            match_status = "fallback_recommendation"
+            event.append(SlotSet("hotel", None))
+        else:
+            match_status = "exact_match"
+            event.append(AllSlotsReset())
+            event.append(SlotSet("hotel", main_hotel_data[0][1].get("nama_hotel", "").lower()))
+            
+        input_data_for_gpt = {
+            "preference": user_text,
+            "style": "structured_review",
+            "match_status": match_status,
+            "hotels": gpt_hotels_list,
+            "alternatives": gpt_alternatives_list
+        }
+        
+        gpt_response = generate_response_from_gpt(input_data_for_gpt)
+
+        dispatcher.utter_message(text=gpt_response)
         return event
 
 class ActionDefaultFallback(Action):
