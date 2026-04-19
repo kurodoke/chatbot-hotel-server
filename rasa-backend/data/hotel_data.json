@@ -6603,6 +6603,1831 @@
         "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/sans-stay-manlie-hotel--residence-9000007014427",
         "agoda": ""
       }
+    },
+    {
+      "nama_hotel": "Jodipati Hotel",
+      "rating": 8.5,
+      "photo": "http://localhost:3000/jodipati.jpg",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 245291,
+          "tipe": "Superior Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 245291,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Mayjen Sutoyo No.30 Singaran Pati, Ratu Agung, Bengkulu, Provinsi Bengkulu, Indonesia, 38224",
+      "jarak_ke_pusat_kota": "4.40 km",
+      "jarak_ke_pantai": "2.26 km",
+      "fasilitas": [
+        "Area parkir",
+        "Layanan kamar 24 jam",
+        "Restoran untuk sarapan",
+        "WiFi di area umum",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Bellboy",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Resepsionis 24 jam",
+        "Restoran ber-AC",
+        "Sarapan prasmanan",
+        "AC",
+        "Area merokok",
+        "Fasilitas rapat",
+        "Fotocopy",
+        "ATM/Bank",
+        "Supermarket",
+        "Internet Kamar"
+      ],
+
+      "ulasan": [
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.9,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        }
+      ],
+
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/hotel-jodipati-3000010006875",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Sans Havila",
+      "rating": 8.5,
+      "photo": "http://localhost:3000/sans_havila.jpg",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 4209959,
+          "tipe": "Family Room",
+          "ranjang": {
+            "tipe": "Single Bed",
+            "jumlah": 3
+          }
+        }
+      ],
+      "alamat": "Jl. Sadang No.21, Lkr. Barat, Kec. Gading Cempaka, Kota Bengkulu, Bengkulu , Gading Cempaka, Bengkulu, Provinsi Bengkulu, Indonesia, 38229",
+      "jarak_ke_pusat_kota": "7.02 km",
+      "jarak_ke_pantai": "4.38 km",
+      "fasilitas": [
+        "AC",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "WiFi gratis",
+        "WiFi di area umum"
+      ],
+
+      "ulasan": [
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/sans-hotel-havila-bengkulu-9000001136958",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Two K Azana",
+      "rating": 9.2,
+      "photo": "http://localhost:3000/twok.jpg",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 507084,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 517084,
+          "tipe": "Superior Double",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 677944,
+          "tipe": "Deluxe Double",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl.Pangeran Natadirja No.102 KM.6.5 Rt.04 Rw.01, Kel.Jalan Gedang Kec.Gading Cempaka, Kota Bengkulu, Gading Cempaka, Bengkulu, Provinsi Bengkulu, Indonesia, 38225",
+      "jarak_ke_pusat_kota": "5.55 km",
+      "jarak_ke_pantai": "3.21 km",
+      "fasilitas": [
+        "Area parkir",
+        "Lift",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan malam",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "Brankas",
+        "WiFi di area umum",
+        "AC",
+        "Aula",
+        "Banquet",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Kolam renang",
+        "TV kabel",
+        "Meja",
+        "Pengering rambut",
+        "Brankas kamar",
+        "Pancuran",
+        "TV",
+        "Fasilitas bisnis",
+        "Fasilitas komputer",
+        "Fasilitas rapat",
+        "PRINTER",
+        "Restoran ber-AC",
+        "Sarapan",
+        "Ruang makan",
+        "Pusat kebugaran",
+        "Kolam renang outdoor",
+        "Spa",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Salon rambut",
+        "Supermarket",
+        "Kolam renang anak",
+        "WiFi gratis"
+      ],
+      "ulasan": [
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.2,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/two-k-azana-style-hotel-bengkulu-9000003250776",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Wilo",
+      "rating": 9.1,
+      "photo": "http://localhost:3000/wilo.jpg",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 282555,
+          "tipe": "Superior Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 470255,
+          "tipe": "Deluxe Double",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 737101,
+          "tipe": "Executive Room",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Putri Gading Cempaka No.22, Penurunan, Kota Bengkulu, Ratu Samban, Bengkulu, Provinsi Bengkulu, Indonesia, 38222",
+      "jarak_ke_pusat_kota": "1.89 km",
+      "jarak_ke_pantai": "1.15 km",
+      "fasilitas": [
+        "AC",
+        "Aula",
+        "Banquet",
+        "Kamar dengan pintu penghubung",
+        "Ruang keluarga",
+        "Alat pemanas",
+        "Area bebas asap rokok",
+        "Kolam renang",
+        "Area merokok",
+        "Bebas rokok",
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Toko oleh-oleh",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "Area parkir",
+        "Early check-in",
+        "Late check-out",
+        "Restoran",
+        "Restoran untuk sarapan",
+        "Restoran untuk makan siang",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "Toilet bagi penyandang disabilitas",
+        "Parkir bagi penyandang disabilitas",
+        "Jalan bagi penyandang disabilitas",
+        "Lokasi mudah diakses",
+        "Kamar aksesibel bagi penyandang disabilitas",
+        "Aksesibel bagi penyandang disabilitas",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Layanan kamar dengan jam terbatas",
+        "Ruang rapat",
+        "Fasilitas rapat",
+        "Fotocopy",
+        "PRINTER",
+        "Proyektor",
+        "Restoran ber-AC",
+        "Sarapan",
+        "Sarapan prasmanan",
+        "Sarapan berbiaya",
+        "Transportasi di area hotel berbiaya",
+        "Penyewaan sepeda",
+        "Parkir berjaga",
+        "Transportasi ke pusat perbelanjaan berbiaya",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "Pusat kebugaran",
+        "Kolam renang outdoor",
+        "Kolam renang anak",
+        "WiFi gratis"
+      ],
+      "ulasan": [
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.6,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "http://traveloka.com/id-id/hotel/indonesia/wilo-hotel-bengkulu-9000001042354",
+        "agoda": ""
+      }
     }
   ]
 }
