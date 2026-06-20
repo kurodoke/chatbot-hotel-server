@@ -1,0 +1,40 @@
+[
+  {
+    "text": "aku butuh hotel nyaman dengan fasilitas lengkap",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "nyaman",
+        "entity": "quality"
+      },
+      {
+        "start": 30,
+        "end": 47,
+        "value": "fasilitas lengkap",
+        "entity": "facility"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quality",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.997885525226593,
+        "value": "nyaman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "facility",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.9985010623931885,
+        "value": "lengkap",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

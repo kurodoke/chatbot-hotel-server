@@ -1,0 +1,18 @@
+[
+  {
+    "text": "ada resepsionis 24 jam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "ask_facility_specific",
+      "confidence": 0.8533565998077393
+    }
+  },
+  {
+    "text": "hotel dengan kolam renang",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_hotel_recommendation",
+      "confidence": 0.5342190265655518
+    }
+  }
+]

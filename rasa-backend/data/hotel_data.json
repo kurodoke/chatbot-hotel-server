@@ -8428,6 +8428,1183 @@
         "traveloka": "http://traveloka.com/id-id/hotel/indonesia/wilo-hotel-bengkulu-9000001042354",
         "agoda": ""
       }
+    },
+    {
+      "nama_hotel": "Uresidence",
+      "rating": 8.8,
+      "photo": "http://localhost:3000/uresidence.jpg",
+      "bintang": 1,
+      "kamar": [
+        {
+          "harga": 500000,
+          "tipe": "Standard Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 2
+          }
+        }
+      ],
+      "alamat": "Jl. Cemp. No.208, Kebun Beler, Kec. Ratu Agung, Kota Bengkulu, Bengkulu 38223, Ratu Agung, Bengkulu, Indonesia, 38223",
+      "jarak_ke_pusat_kota": "2.48 km",
+      "jarak_ke_pantai": "870 m",
+      "fasilitas": [
+        "Kopi/teh di lobby",
+        "Kafe",
+        "Early check-in",
+        "Late check-out",
+        "Restoran untuk sarapan",
+        "WiFi di area umum",
+        "Bellboy",
+        "Check-in ekspress",
+        "Check-out ekspress",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "TV kabel",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "AC",
+        "Area bebas asap rokok",
+        "Teras",
+        "WiFi gratis",
+        "WiFi di area umum berbiaya",
+        "Toilet bagi penyandang disabilitas",
+        "Parkir bagi penyandang disabilitas"
+      ],
+      "ulasan": [
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/detail?spec=20-06-2026.21-06-2026.1.1.HOTEL.9000001207034.Uresidence.1&loginPromo=1&prevSearchId=1868493949305388796&priceDisplay=TOTAL&iuid=ef3cdf7d-06fd-4090-9977-67289402c1ac",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Kataoma",
+      "rating": 9.0,
+      "photo": "http://localhost:3000/kataoma.jpg",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 588120,
+          "tipe": "Deluxe Twin",
+          "ranjang": {
+            "tipe": "Twin Bed",
+            "jumlah": 2
+          }
+        },
+        {
+          "harga": 846690,
+          "tipe": "Suite Room",
+          "ranjang": {
+            "tipe": "King Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Kapt. Tendean Km. 6,5 RT. 005 RW. 002 Kel. Jembatan Kecil Kec. Singaran Pati Kota Bengkulu, Singaran Pati, Bengkulu, Indonesia, 38224",
+      "jarak_ke_pusat_kota": "437 m",
+      "jarak_ke_pantai": "2.79 km",
+      "fasilitas": [
+        "ATM/Bank",
+        "Salon kecantikan",
+        "Toko oleh-oleh",
+        "Mini market",
+        "Salon rambut",
+        "Laundry Swadaya",
+        "Toko",
+        "Supermarket",
+        "Concierge/layanan tamu",
+        "Check-in ekspress",
+        "Check-out ekspress",
+        "Resepsionis",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Penitipan bagasi",
+        "AC",
+        "Kamar dengan pintu penghubung",
+        "Ruang keluarga",
+        "Alat pemanas",
+        "Area merokok",
+        "Area parkir",
+        "Lift",
+        "Restoran",
+        "Layanan kamar",
+        "WiFi di area umum",
+        "TV kabel",
+        "Pengering rambut",
+        "Pancuran dan bathtub terpisah",
+        "Pancuran",
+        "TV",
+        "Toilet bagi penyandang disabilitas",
+        "Parkir bagi penyandang disabilitas",
+        "Kafe",
+        "WiFi gratis"
+      ],
+      "ulasan": [
+        {
+          "rating": 7.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/detail?spec=20-06-2026.21-06-2026.1.1.HOTEL.9000008197645.KATAOMA%20HOTEL.1&loginPromo=1&prevSearchId=1868493949305388796&priceDisplay=TOTAL&iuid=f635cfe1-1bd7-4637-92c5-0c72c3520ef9",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Madeline Hotel",
+      "rating": 8.3,
+      "photo": "http://localhost:3000/madeline.jpg",
+      "bintang": 2,
+      "kamar": [
+        {
+          "harga": 452789,
+          "tipe": "Superior",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 842399,
+          "tipe": "Suite",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jalan Bhakti Husada No 88, Gading Cempaka, Bengkulu, Indonesia, 38225",
+      "jarak_ke_pusat_kota": "2.64 km",
+      "jarak_ke_pantai": "4.60 km",
+      "fasilitas": [
+        "Area parkir",
+        "Layanan kamar 24 jam",
+        "Restoran",
+        "Layanan kamar",
+        "Brankas",
+        "WiFi di area umum",
+        "Resepsionis 24 jam",
+        "Keamanan 24 jam",
+        "Laundry",
+        "Penitipan bagasi",
+        "Antar-jemput bandara",
+        "Internet Kamar",
+        "Fasilitas rapat",
+        "ATM/Bank"
+      ],
+      "ulasan": [
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 7.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.6,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 4.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.2,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.3,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.9,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.3,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.7,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.3,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 7.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "negative"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/detail?spec=20-06-2026.21-06-2026.1.1.HOTEL.3000010004388.The%20Madeline%20Hotel.1&loginPromo=1&prevSearchId=1868493949305388796&priceDisplay=TOTAL&iuid=5599a62d-3803-47de-8617-4a7764e9e4f6",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Sans Havilla",
+      "rating": 8.5,
+      "photo": "http://localhost:3000/sans_havilla.jpg",
+      "bintang": 3,
+      "kamar": [
+        {
+          "harga": 398174,
+          "tipe": "Superior Room",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        },
+        {
+          "harga": 453772,
+          "tipe": "Family Room",
+          "ranjang": {
+            "tipe": "Double Bed",
+            "jumlah": 1
+          }
+        }
+      ],
+      "alamat": "Jl. Sadang No.21, Lkr. Barat, Kec. Gading Cempaka, Kota Bengkulu, Bengkulu , Gading Cempaka, Bengkulu, Indonesia, 38229",
+      "jarak_ke_pusat_kota": "2.47 km",
+      "jarak_ke_pantai": "4.38 km",
+      "fasilitas": [
+        "AC",
+        "Area bebas asap rokok",
+        "Area merokok",
+        "Meja",
+        "Pancuran",
+        "TV",
+        "WiFi gratis",
+        "WiFi di area umum"
+      ],
+      "ulasan": [
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.2,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 6.4,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 6.0,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5.4,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5.8,
+          "sentiment": "negative"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 8.5,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.1,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/detail?spec=20-06-2026.21-06-2026.1.1.HOTEL.9000001136958.Sans%20Hotel%20Havila%20Bengkulu.1&loginPromo=1&prevSearchId=1868493949305388796&priceDisplay=TOTAL&iuid=9c5c8d14-4395-46c4-ae81-277123f75b36",
+        "agoda": ""
+      }
+    },
+    {
+      "nama_hotel": "Una",
+      "rating": 9.0,
+      "photo": "http://localhost:3000/una.jpg",
+      "bintang": 5,
+      "kamar": [
+        {
+          "harga": 608400,
+          "tipe": "Standar Loft",
+          "ranjang": {
+            "tipe": "Tempat Tidur Tingkat",
+            "jumlah": 2
+          }
+        }
+      ],
+      "alamat": "Jl. Pangeran Natadirja KM.7 No.42b, RT.010, Jl. Gedang, Kec. Gading Cemp., Kota Bengkulu, Bengkulu 38225, Gading Cempaka, Bengkulu, Indonesia, 38225",
+      "jarak_ke_pusat_kota": "955 m",
+      "jarak_ke_pantai": "3.10 km",
+      "fasilitas": [
+        "Resepsionis 24 jam",
+        "Resepsionis",
+        "Penitipan bagasi",
+        "Keamanan 24 jam",
+        "WiFi di area umum",
+        "Area parkir",
+        "Restoran",
+        "ATM/Bank",
+        "Toko",
+        "WiFi gratis",
+        "Area merokok"
+      ],
+      "ulasan": [
+        {
+          "rating": 8.8,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 9.7,
+          "sentiment": "positive"
+        },
+        {
+          "rating": 10.0,
+          "sentiment": "positive"
+        }
+      ],
+      "link": {
+        "traveloka": "https://www.traveloka.com/id-id/hotel/detail?spec=20-06-2026.21-06-2026.1.1.HOTEL.9000008244463.Una%20Hotel.1&loginPromo=1&prevSearchId=1868493949305388796&priceDisplay=TOTAL&iuid=c65c236e-8fbc-4a0c-b8c7-4a96fe2bcd38",
+        "agoda": ""
+      }
     }
   ]
 }
